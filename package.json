@@ -1,7 +1,24 @@
 {
   "name": "smart-rename",
   "version": "0.0.1",
+  "keywords": [
+    "rename",
+    "AI",
+    "refactoring",
+    "smart"
+  ],
+  "publisher": "noalone",
+  "description": "SmartRename is a VS Code extension that uses AI to intelligently rename variables and functions with context-aware suggestions.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IceHugh/smart-reanme.git"
+  },
+  "displayName": "SmartRename",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
   "main": "./dist/extension.js",
+  "icon": "images/icon.png",
   "devDependencies": {
     "@types/vscode": "^1.92.0",
     "@types/mocha": "^10.0.7",
@@ -16,9 +33,7 @@
     "@vscode/test-electron": "^2.4.0"
   },
   "activationEvents": [],
-  "categories": [
-    "Other"
-  ],
+  "categories": ["Other", "Programming Languages"],
   "contributes": {
     "commands": [
       {
@@ -79,11 +94,6 @@
         "mac": "cmd+alt+r"
       }
     ]
-  },
-  "description": "",
-  "displayName": "SmartRename",
-  "engines": {
-    "vscode": "^1.92.0"
   },
   "scripts": {
     "vscode:prepublish": "npm run package",

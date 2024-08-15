@@ -60,6 +60,13 @@ You can customize the behavior of the extension by configuring the following set
 ## Contributing
 
 Contributions are welcome! If you have any ideas, issues, or suggestions, feel free to open an issue or submit a pull request on GitHub.
+Here’s a simplified version:
+
+🌟 **Try SiliconCloud for Free AI Models!** 🌟
+
+Boost your projects with **SiliconCloud**—offering powerful AI models for free. Easy to integrate, high performance, and completely free to use.
+
+🔗 [Explore SiliconCloud](https://cloud.siliconflow.cn?referrer=clzrvfdfa02a3qr6hgl4difhb) today!
 
 ## License
 
